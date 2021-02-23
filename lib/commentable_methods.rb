@@ -26,8 +26,8 @@ module Juixe
                    has_many_options(role)
         end
         
-        alias_method :define_role_based_inflection_4, :define_role_based_inflection_5
-        alias_method :define_role_based_inflection_4, :define_role_based_inflection_6
+        alias_method :define_role_based_inflection_5, :define_role_based_inflection_4
+        alias_method :define_role_based_inflection_6, :define_role_based_inflection_4
 
         def has_many_options(role)
           {:class_name => "Comment",
